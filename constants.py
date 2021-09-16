@@ -16,7 +16,7 @@ GUILD_INDEX = 0
 
 
 TORTOISE_ORM = {
-    "connections": {"default": f"postgres://{pg_user}:{pg_password}@localhost:5432/{pg_db}"},
+    "connections": {"default": f"postgres://{pg_user}:{pg_password}@localhost:5433/{pg_db}"},
     "apps": {
         "app": {
             "models": ["app.models", "aerich.models"],
